@@ -1,1 +1,1 @@
-K-FOLD-CROSS-VALIDATION-in-Python 
+K-fold cross-validation is a technique used in machine learning for model evaluation. It involves partitioning the dataset into K equal-sized folds, training the model K times, each time using K-1 folds for training and the remaining fold for validation. This process is repeated K times, each time with a different fold used for validation. The final evaluation metric is typically the average of the performance across all K folds. It helps to reduce bias and variance in model evaluation compared to a single train-test split.
